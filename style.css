@@ -1,0 +1,751 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapp__body {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 0;
+    width: 650px;
+    height: 850px;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+    width: 296px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.30);
+}
+
+.education_skill {
+    width: 321px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.wrapp__profile {
+    display: flex;
+    gap: 22px;
+    width: 253px;
+    height: 116.016px;
+}
+
+.avatar {
+    width: 110px;
+    height: 116.016px;
+    border-radius: 93px;
+    background: url(<path-to-image>), lightgray -5.938px 0px / 110.796% 100% no-repeat;
+}
+
+.wrapp__name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.surname {
+    color: #CECACA;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text {
+    color: #CECACA;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapp__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.mail_svg {
+    padding-left: 20px;
+}
+
+.github_svg {
+    padding-left: 20px; 
+}
+
+.discord_svg {
+    padding-left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.mail_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.git_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.git_text:hover {
+    font-size: 20px;
+}
+
+.number_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tg_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tg_text:hover {
+    font-size: 20px;
+}
+
+
+.discord_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.discord_text:hover {
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.telegram {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.contact_svg {
+    padding-left: 20px;
+}
+
+.tg_svg {
+    padding-left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.discord {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 260px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.location_png {
+    padding-left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.location_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.knowledge {
+    width: 260px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.title_khowledge {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+}
+
+.skill_list {
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    margin: 0;
+}
+
+
+.skill_lang {
+    list-style:none;
+    margin:0;
+}
+
+.skill_text {
+    list-style:none;
+    margin:0;
+    padding:5px;
+}
+
+li.skill_text {
+    padding:5px;
+}
+
+li.skill_text_lang {
+    padding: 5px;
+}
+   
+li:before{
+    content: '';
+    display: inline-block;
+    height:8px;
+    width: 8px;
+    vertical-align: middle;
+    border-radius:50%;
+    background-color:white;
+    margin-right:5px;
+}
+
+.language {
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    width: 260px;
+    height: 110px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+}
+
+.title_lang {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.skill_lang {
+padding-left: 20px;
+}
+
+/* .skill_text_lang {
+
+} */
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.wrapp__lang {
+    display: flex;
+    gap: 30px;
+}
+
+.wrapp__circle {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapp__social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social {
+    width: 70px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background: rgba(196, 196, 196, 0.35);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.wrapp__social__title {
+    display: flex;
+    justify-content: flex-start;
+    width: 260px;
+}
+
+.wrapp__icon__hobbies {
+    display: flex;
+
+}
+
+.icon_tennis {
+    width: 35px;
+    height: 35px;
+}
+
+.icon_run {
+    width: 35px;
+    height: 35px;
+}
+
+.icon_dog {
+    width: 35px;
+    height: 35px;
+}
+
+.wrapp_icon__hobbies2 {
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hobbies_title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+}
+
+.education {
+    width: 294px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wrapp_block {
+    display: flex;
+}
+
+.education_block {
+    width: 154px;
+    height: 24px;
+    border-radius: 5px;
+    background: #545454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ed_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    text-transform: uppercase;
+    word-spacing: 0.1;
+}
+
+.ed_line {
+    width: 141px;
+    height: 1px;
+    background: #545454;
+    display:inline;
+    align-self: center;
+}
+
+.inst_block {
+    width: 294px;
+}
+
+.inst_text {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+}
+
+.course {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+.year_1 {
+    color: #73808D;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 200% */
+}
+
+
+
+.faculty_1 {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+}
+
+.faculty {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+}
+
+.experience {
+    width: 294px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.exp_list {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    list-style:none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.exp1::before{
+    content: '';
+    display: inline-block;
+    height:8px;
+    width: 8px;
+    vertical-align: middle;
+    border-radius:50%;
+    background-color:rgb(0, 0, 0);
+    margin-right:5px;
+}
+
+li.exp1 {
+    padding: 5px;
+}
+
+.my_skills {
+    width: 294px;
+    height: 256px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.wrapp__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.ai_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.ai_icon {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+}
+
+.ai_elipse {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+.ai_text {
+    color: #545454;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+}
+
+
+.ps_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.ps_icon {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+}
+
+.ps_elipse {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+.ps_text {
+    color: #545454;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+}
+
+.html_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.html_icon {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+}
+
+.html_elipse {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+.css_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.css_icon {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+}
+
+.css_elipse {
+    position: absolute;
+    top: -16px;
+    left: -10px;
+}
+
+.js_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+
+
+.js_icon {
+    position: absolute;
+    top: 8px;
+    width: 25px;
+    height: 30px;
+    right: 22px;
+}
+
+.js_elipse {
+    position: absolute;
+    top: -6px;
+    left: 21px;
+}
+
+.figma_skill {
+    position: relative;
+    width: 70px;
+    height: 97px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.figma_icon {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+}
+
+.figma_elipse {
+    position: absolute;
+    top: -14px;
+    left: -4px;
+}
+
+.wrapp_code {
+    display: flex;
+}
+
+.code {
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    line-height: 12px;
+    margin: -5px;
+    letter-spacing: 0.8px;
+}

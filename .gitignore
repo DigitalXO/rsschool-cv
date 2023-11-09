@@ -1,0 +1,27 @@
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.swp
+*~
+
+# Системы сборки и зависимости
+node_modules/
+vendor/
+*.log
+yarn-error.log
+
+# Конфигурация
+.env
+.vscode/
+*.iml
+.idea/
+
+# Компилированные файлы
+*.class
+target/
+bin/
+
+# Язык и платформа
+.ruby
